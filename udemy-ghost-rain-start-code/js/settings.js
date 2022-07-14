@@ -6,3 +6,6 @@ const GHOST_HEIGHT = 54;
 
 const HERO_WIDTH = 35;
 const HERO_HEIGHT = 54;
+
+const heroElement = document.getElementById('hero');
+const bgElement = document.getElementById('bg');
