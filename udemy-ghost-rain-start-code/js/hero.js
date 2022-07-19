@@ -25,7 +25,6 @@ document.addEventListener('keydown', function(e){
     heroElement.className = 'right';
   }
   // heroElement.style.left = '30px'
-    
 
 });
 
