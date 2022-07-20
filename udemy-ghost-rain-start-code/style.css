@@ -10,6 +10,14 @@
   margin: 0 auto;
 }
 
+h1 {
+  padding: 20px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-size: 60px;
+}
+
 #hero {
   position: absolute;
   bottom: 0;
@@ -31,4 +39,23 @@
 
 #hero.right {
   background-position: -105px;
+}
+/* /////////////추가 기능///////////// */
+#wrap {
+  width: 800px;
+  margin: 0 auto;
+}
+.clockImg {
+  width: 30px;
+  display: block;
+}
+#content {
+  display: flex;
+  justify-content: space-between;
+}
+#startBtn {
+  width: 100%;
+  margin-top: 40px;
+  padding: 10px;
+  font-size: 30px;
 }

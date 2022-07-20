@@ -3,17 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <title>Udemy - Ghost Rain</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/style.css" />
     <link rel="short icon" href="#"> 
     <!-- GET http://127.0.0.1:5500/favicon.ico 404 (Not Found) -->
     <!-- 에러 안 뜨게 하는 링크 -->
 
   </head>
   <body>
-    <div id="bg">
-      <span id="hero"></span>
+    <header>
+      <h1>Ghost Rain</h1>
+    </header>
+
+    <div id="wrap">
+      <div id="content">
+        <div id="timer">
+          <img src="/images/alarm-clock-xxl.png" class="clockImg">
+          <p class="timeNum">timer</p>
+        </div>
+        <div id="score">
+          <p>SCORE</p>
+          <p class="scoreNum"></p>
+        </div>
+      </div>
+      
+      <div id="bg">
+        <span id="hero"></span>
+      </div>
+        <button id="startBtn">START</button>
+
     </div>
 
+      
+    
     <script src="js/settings.js"></script>
     <script src="js/ghost.js"></script>
     <script src="js/hero.js"></script>
