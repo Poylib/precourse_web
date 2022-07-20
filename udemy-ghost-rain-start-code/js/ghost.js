@@ -57,4 +57,15 @@ function die(el) {
   setTimeout(()=> {
     remove(el)
   },3000);
+  scorePlus++;
+  addScore();
+}
+
+/////////////////add_score///////////////
+let scorePlus = 0;
+let scoreNum = document.querySelector('.scoreNum');
+function addScore() {
+  const SCORE = 'score'
+  localStorage.setItem(SCORE,scorePlus);
+  scoreNum.innerHTML = localStorage.getItem(SCORE);
 }

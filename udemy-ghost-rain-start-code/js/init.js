@@ -38,4 +38,6 @@ function checkKey(e, isMoving) {
   }
 }
 
-init();
+////////////add_startButton//////////
+const startBtn = document.querySelector('#startBtn');
+startBtn.addEventListener("click",init)
